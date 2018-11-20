@@ -1,0 +1,66 @@
+body {
+  padding:0px;
+  margin:0px;
+  font-family: Century Gothic;
+  background-image: url(fundoDegrade.jpg)  ;
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#menu ul {
+  padding:0px;
+  margin:0px;
+  float: left;
+  width: 15,5%;
+  height:685px;
+  list-style:left;
+  font:80%;
+  background-color:#FF5C8F; //rosamenu
+}
+
+#menu{
+  float: left;
+  margin-right: 30px;
+}
+
+#menu ul li a {
+  background-color:#FF5C8F;//rosamenu
+  color: #333;
+  text-decoration: none;
+  border-bottom:2px  hidden #FF5C8F;
+  padding: 2px 10px;
+  float: none;
+  font-size: 30px;
+  color: white;
+}
+
+#menu ul li a:hover {
+  background-color:#FF5C8F;
+  color: white;
+  border-bottom:3px solid white;
+}
+
+#fotologo img {
+  width: 15,5%;
+  height:60px
+  padding: 10px;
+}
+
+#menufoto img {
+  position: relative;
+  left:50%;
+  top:50%;
+}
+
+#fotomenu {
+   width: 250px;
+   height: 520px;
+}
+
+fieldset{
+  width: 500px;
+  left: 20px;
+}

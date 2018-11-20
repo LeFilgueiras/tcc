@@ -1,0 +1,135 @@
+
+#cadastro {
+    width: 250px;
+    height: 500px;
+    float: right;
+    text-align: center;
+    padding-right: 5%;
+  }
+
+  #titulocadastro {
+    font-family: Century Gothic;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  input .cadastro {
+    width: 200px;
+    height: 10px;
+  }
+
+  #inicio {
+    float: left;
+    width: 1250px;
+    height: 800px;
+    background-image: url(fotoinicial.jpg);
+    background-repeat: no-repeat;
+  }
+
+  body {
+    background-color: #9DF3F8;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #cabeçalho {
+     width: 100%;
+  }
+
+  .login {
+    height: 25px;
+    width: 1200px;
+    display: block;
+    padding-left: 0px;
+    font-family:  Century Gothic;
+    color: #FB4E59;
+    font-size: 20px;
+  }
+
+  .cadastroinput {
+    padding: 15px;
+  }
+
+  .usuario {
+    padding: 10px;
+    font-family: Century Gothic;
+    width: 300px;
+    padding-right: 100px;
+    border-left: 100px;
+    font-weight: bold;
+  }
+
+  .senha {
+    padding: 30px;
+    font-family: Century Gothic;
+    width: 200px;
+    padding-right: 100px;
+  }
+
+  .cadastrobutton {
+    font-family: Century Gothic;
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#FB4E59;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+    transition: all 0.5s;
+  }
+
+  .cadastrobutton:hover {
+    background-color: #F77388;
+  }
+
+  .cadastrobutton:active {
+    background-color: #F77388;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #titulo {
+    font-family: Century Gothic;
+    font-color: #FB4E59;
+    font-size: 40px;
+  }
+
+
+  #loginbutton {
+    font-family: Century Gothic;
+    text-align: center;
+    width: auto;
+    height: auto;
+
+  }
+
+  #loginbutton {
+    display: inline-block;
+    padding: 3px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#FB4E59;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+  }
+
+  #loginbutton:hover {
+    background-color: #F77388;
+  }
+
+  #loginbutton:active {
+    background-color: #F77388;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

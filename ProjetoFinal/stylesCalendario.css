@@ -1,0 +1,185 @@
+body {
+  padding:0px;
+  margin:0px;
+  font-family: Century Gothic;
+  background-image: url(fundoDegrade.jpg)  ;
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#menu ul {
+  padding:0px;
+  margin:0px;
+  float: left;
+  width: 15,5%;
+  height:685px;
+  list-style:left;
+  font:80%;
+  background-color:#FF5C8F; //rosamenu
+}
+
+#menu{
+  float: left;
+}
+
+#menu ul li a {
+  background-color:#FF5C8F;//rosamenu
+  color: #333;
+  text-decoration: none;
+  border-bottom:2px  hidden #FF5C8F;
+  padding: 2px 10px;
+  float: none;
+  font-size: 30px;
+  color: white;
+}
+
+#menu ul li a:hover {
+  background-color:#FF5C8F;
+  color: white;
+  border-bottom:3px solid white;
+}
+
+#fotologo img {
+  width: 15,5%;
+  height:60px
+  padding: 10px;
+}
+
+#menufoto img {
+  left:50%;
+  top:50%;
+}
+
+#fotomenu {
+   width: 250px;
+   height: 520px;
+}
+
+span.label {
+  color:black;
+  width:50;
+  height:50;
+  text-align:center;
+  margin-top:0;
+  font-family: Century Gothic;
+  text-decoration:none;
+}
+
+  a.c1 {
+    text-decoration:none;
+    background-color: rgb(144, 238, 144);
+  }
+
+  a.c2 {
+    text-decoration:none;
+  }
+
+  a.c3 {
+    text-decoration:none;
+  }
+
+  .tabeladentro{
+    width: 1000px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 2%;
+    border-style: groove;
+    background-color: #9df3f8;
+  }
+
+  .cadaquadrado{
+    padding: 38px;
+    padding-bottom: 50px;
+    background-image: url(fotoFundo.jpgl);
+     background-color: #c6eff1;
+     border-radius: 5%;
+     border-style: inset;
+     font-family: Century Gothic;
+     font-size: 20px;
+  }
+
+  .img-container
+  {
+    position:relative;
+    top:100px;
+    left:0px;
+    background-image: "ceuazul.jpg";
+  }
+
+  .mes{
+    border:0px;
+  }
+
+  .tudo{
+    padding-left: 12px;
+  }
+
+  .setinhames{
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+     -moz-appearance: none; /* Remove estilo padrão do FireFox */
+     appearance: none; /* Remove estilo padrão do FireFox*/
+     background: url(seta3.png) no-repeat #9df3f8 ;
+     background-position: 218px center;  /*Posição da imagem do background*/
+     width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+     height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+     border:3px ;
+     border-style: outset;
+     border-radius: 5%;
+     padding: 6px;
+     width: 260px;
+  }
+
+  .ano{
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+     -moz-appearance: none; /* Remove estilo padrão do FireFox */
+     appearance: none; /* Remove estilo padrão do FireFox*/
+     background: url(seta3.png) no-repeat #9df3f8 ;
+     background-position: 60px center;  /*Posição da imagem do background*/
+     width: 50px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+     height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+     border:3px ;
+     border-style: outset;
+     border-radius: 5%;
+     padding: 6px;
+     width: 100px;
+  }
+
+  .link{
+    text-decoration:none;
+  }
+
+  #lista{
+    border-style: outset;
+    border-radius: 5%;
+    background-image: url('fundoLista_Easy-Resize.com.jpg');
+    background-repeat:no-repeat;
+    background-size: 390px 700px;
+    position: absolute;
+    margin-left: 1300px;
+    top: 50px;
+    height:700px;
+    width: 390px;
+  }
+
+  .form{
+    height: 10px;
+  }
+
+  #titulo{
+    font-family: Century Gothic;
+    font-size: 27px;
+    padding-left: 120px;
+  }
+
+  .item{
+    padding-left: 90px;
+    color: #FF5C8F;
+  }
+
+  .item2{
+    padding-left: 90px;
+    color: #BF00FF;
+  }
